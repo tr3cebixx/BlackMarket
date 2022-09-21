@@ -17,7 +17,7 @@ const ItemListContainer = ({ ItemList, Item, Counter, compareFn }) => {
   }
   useEffect(() => {
     fnFetch()
-    })
+    }, [])
       
   return (
     <>

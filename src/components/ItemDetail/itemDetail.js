@@ -5,8 +5,10 @@ const ItemDetail = ({ product, Counter }) => {
     <div className="detailContainer">
       <h3 className="itemDetailTitle">{product.name}</h3>
       <h4 className="itemDetailType">{product.type}</h4>
+      <div className="flexItem">
       <img src={product.img} alt={product.name} className="itemDetailImg" />
       <p className="itemDetailDescription">{product.description}</p>
+      </div>
       <p className="itemDetailAvailable">{product.available}</p>
       <p className="itemDetailStock">Stock: {product.stock}</p>
       <Counter />

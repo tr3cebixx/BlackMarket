@@ -1,0 +1,55 @@
+.detailContainer{
+    border: 0.5rem groove #FFC300;
+    background-color: #6c0000;
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.itemDetailTitle{
+    color: black;
+    display: block;
+    background-color: #6d6d6c;
+    border: groove 0.5rem #FFC300;
+    margin: 0rem;
+}
+.itemDetailType{
+    color: #000;
+    display: block;
+    width: 40%;
+    border: solid;
+    padding: 0.5rem;
+    background-color: #3a2983;
+    margin: 0 auto;
+}
+.flexItem{
+    display: flex;
+    flex-direction: row;
+}
+.itemDetailImg{
+    display: inline-block;
+    margin-left: 0.5rem;
+    width: 40%;
+    min-width: 40%;
+    margin-top: 1rem;
+    border: #6d6d6c groove 1rem;
+}
+.itemDetailDescription{
+    margin-right: 0.5rem;
+    border: #3a2983 1rem groove;
+    margin-left: 1rem;
+    background-color: #6d6d6c;
+}
+.itemDetailStock{
+    border: #3a2983 groove 0.5rem;
+    display: block;
+    background-color: #B3CDD1;
+    color: #000;
+    font-weight: bold;
+}
+.itemDetailPrice{
+    border: #FFC300 groove 1rem;
+    background-color: #6d6d6c;
+    margin: 1rem 1rem;
+    font-weight: bolder;
+}

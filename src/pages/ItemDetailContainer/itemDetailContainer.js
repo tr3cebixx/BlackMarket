@@ -17,11 +17,13 @@ const ItemDetailContainer = ({ Counter }) => {
       });
   };
   useEffect(() => {
-    getProduct();
-  });
+    setTimeout(()=>{
+      getProduct()
+    }, 2000);
+  },[]);
   return (
     <div className="itemDetailContainer">
-      {/* <ItemDetail product={product} Counter={Counter} /> */}
+      { product ? <ItemDetail product={product} Counter={Counter} /> : <h2>Cargando producto...</h2>}
     </div>
   );
 };
