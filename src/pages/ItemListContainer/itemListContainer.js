@@ -11,12 +11,13 @@ const ItemListContainer = ({ ItemList, Item, Counter, compareFn }) => {
       console.log(resp)
       setProductList(resp)
       setLoading(false)
-      console.log(AllItemImages)
     })
     .catch(err=>console.log(err))
   }
   useEffect(() => {
-    fnFetch()
+    setTimeout(() => {
+      fnFetch()
+    }, 2000);
     }, [])
       
   return (

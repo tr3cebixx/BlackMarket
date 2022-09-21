@@ -16,7 +16,7 @@
 .itemDetailType{
     color: #000;
     display: block;
-    width: 40%;
+    width: 90%;
     border: solid;
     padding: 0.5rem;
     background-color: #3a2983;
@@ -52,4 +52,36 @@
     background-color: #6d6d6c;
     margin: 1rem 1rem;
     font-weight: bolder;
+}
+.itemDetailAvailable{
+    border: #B3CDD1 groove 0.5rem;
+    background-color: #6d6d6c;
+    color: #000;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1400px){
+    .flexItem{
+        flex-direction: column;
+    }
+    .itemDetailImg{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+    }
+    .itemDetailDescription{
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+    .itemDetailStock{
+        margin: 0.5rem auto;
+    }
+    .itemDetailAvailable{
+        margin-bottom: 0;
+    }
+    .itemDetailPrice{
+        margin: 0.2rem;
+    }
 }
