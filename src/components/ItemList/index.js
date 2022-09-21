@@ -5,7 +5,7 @@ const ItemList = ({ Item, lista, Counter, loading }) => {
     <div className="itemContainer">
       {loading ? <h2>Cargando productos...</h2>:
       lista.map((prod) => {
-          return <Link to={`/products/${prod.id}`}><Item
+          return <Link to={`/products/${prod.id}`} style={{textDecoration: 'none', color: 'black'}} key={prod.id}><Item
             Counter={Counter}
             lista={lista}
             id={prod.id}
