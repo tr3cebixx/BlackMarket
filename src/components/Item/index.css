@@ -1,0 +1,39 @@
+.itemCard{
+    background-color: #9FA4C4;
+    border: groove 0.5rem #623793;
+    width: 23vw;
+    display: inline-block;
+    margin: 1rem;
+}
+.itemType{
+    display: none;
+}
+.itemDescription{
+    display: none;
+}
+.itemTitle{
+    border: groove 0.2rem #0F0F0F;
+    background-color: #B3CDD1;
+    margin: 0.5rem;
+}
+.itemPrice{
+    border: groove 0.2rem #0F0F0F;
+    background-color: #B3CDD1;
+    margin: 0.5rem;
+}
+.itemImg{
+    height: 13rem;
+    border: solid black 0.1rem;
+    margin-top: 0.4rem;
+    max-width: 21vw;
+}
+.itemStock{
+    background-color: #B3CDD1;
+    border: groove 0.5rem #623793;
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+    max-width: 5rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}

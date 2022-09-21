@@ -1,0 +1,18 @@
+.cover{
+    border: groove 1rem #9589a3;
+    background-color: #623793;
+    max-width: 60vw;
+    margin: 0 auto;
+    padding: 2rem;
+    display: block;
+}
+.logoAshura{
+    width: 60vw;
+    display: block;
+    margin: 0 auto;
+}
+.p{
+    display: block;
+    text-decoration: underline;
+    
+}

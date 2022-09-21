@@ -1,0 +1,30 @@
+.counterDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 13vw;
+    justify-content: center;
+    background-color: #B3CDD1;
+    margin: 1rem;
+    border: groove #0F0F0F 0.3rem;
+}
+.counterP{
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.counterBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.counterBtn{
+    min-width: 2vw;
+    height: 5vh;
+    background-color: #623793;
+    border: groove 0.5rem #9FA4C4;
+    margin: 0.1rem;
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+}
