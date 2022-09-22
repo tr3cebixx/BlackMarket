@@ -1,6 +1,9 @@
 import "./itemDetail.css";
+import { useState } from "react";
 
 const ItemDetail = ({ product, Counter }) => {
+  const [count, setCount] = useState(0)
+  
   return (
     <div className="detailContainer">
       <h3 className="itemDetailTitle">{product.name}</h3>
@@ -11,7 +14,7 @@ const ItemDetail = ({ product, Counter }) => {
       </div>
       <p className="itemDetailStock">Stock: {product.stock}</p>
       {product.available ? (<p className="itemDetailAvailable">Disponible</p>) : (<p className="itemDetailAvailable">No disponible</p>)}
-      <Counter />
+      <Counter setCount={setCount} count={count} product={product} />
       <h3 className="itemDetailPrice">{product.price}M Berries</h3>
     </div>
   );
